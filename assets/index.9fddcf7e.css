@@ -1,1 +1,279 @@
-@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap";:root{--color-light: #f2f7f7;--color-milk: #F5EEE8;--color-milk-dark: #E1EDF3;--color-blue: #aac1c8;--color-blue-light: #7DA9C1;--color-blue-dark: #3A6982;--color-emph: #FFA742;--color-red-dark: #2D111D;--color-dark: #232323;--gradient-space: linear-gradient(219.78deg, #271B20 47.4%, #141515 84.73%);--text-dark: #232323;--text-light: #ffffff;--font-1: "Inter", sans-serif;--height-header: 150px;--height-footer: 150px}*{box-sizing:border-box}html,body{position:relative;min-height:100vh;overflow-x:hidden;display:flex;flex-direction:column}body{font-family:var(--font-1);margin:0}.text-shadow{text-shadow:.05em 3px 2px rgba(125,169,193,.6039215686)}.-mobile{display:none}@media (max-width: 770px){.-not-mobile{display:none}.-mobile{display:inherit}}.outer-space-svg path{background:var(--gradient-space)}:root{--height-footer: 175px}header:where(.astro-VELUO6WA){--color: #2e2e2e;position:relative;width:100%;color:var(--color);box-sizing:border-box;background-color:var(--color-milk);padding:2em 0;filter:drop-shadow(2px 5px 1px rgba(0,0,0,.062745098));z-index:10}@media (max-width: 770px){header:where(.astro-VELUO6WA){padding-left:0}}header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA){position:relative;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:0;z-index:10}header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) .company-logo:where(.astro-VELUO6WA){display:inline;height:1.7em;margin-right:1em}header:where(.astro-VELUO6WA) .header-drops:where(.astro-VELUO6WA){position:absolute;width:400px;top:calc(100% - 1px)}header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA){position:absolute;top:calc(100% - 1px);left:0;right:0}header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path{fill:var(--color-milk)}.middle-content:where(.astro-VELUO6WA){--color: #f8f3ee;position:relative;background-color:var(--color-blue);width:100%;z-index:5;filter:drop-shadow(0px 5px 20px black) drop-shadow(-5px 10px 50px black);flex-grow:1}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup{display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:1.5rem;text-align:center;padding-left:2em;padding-right:2em}@media (max-width: 770px){.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup{font-size:1.2em}}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA){color:var(--color);position:relative;z-index:10;max-width:700px;padding-top:2em;padding-bottom:2em}@media (max-width: 770px){.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA){padding-top:7em;padding-bottom:0}}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) p:where(.astro-VELUO6WA){font-weight:600}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA){position:relative}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up{display:inline-block;background-color:var(--color-milk);color:var(--color-blue-light);font-weight:900;border-radius:20px;padding:1em 2em;text-decoration:none;filter:drop-shadow(0px 20px 0px var(--color-blue-light));margin-bottom:2em}@media (max-width: 770px){.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up{border-bottom-left-radius:unset;border-bottom-right-radius:unset;filter:drop-shadow(2px 5px 1px rgba(0,0,0,.062745098))}}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA) .sign-up-drops:where(.astro-VELUO6WA){position:absolute;left:0;right:0;top:calc(100% - 1px)}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA){position:relative;width:180px;display:inline-block}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA){position:relative;z-index:2}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #drops,#wave{fill:var(--color-milk)}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #background{fill:none}.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo-background:where(.astro-VELUO6WA){position:absolute;border-radius:100%;aspect-ratio:1;z-index:1;inset:3%;background-image:url(logo-background.png);background-size:contain;animation-name:space-rotation;animation-duration:60s;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes space-rotation{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA){position:absolute;top:calc(100% - 1px);left:0;right:0}.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA) path{fill:var(--color-blue)}footer:where(.astro-VELUO6WA){display:flex;justify-content:center;align-items:flex-end;gap:4em;width:100%;padding-bottom:calc(var(--height-footer) * .25);height:var(--height-footer);background-image:url(/assets/stars_pattern.png),var(--gradient-space);background-size:800px,100%}@media (max-width: 770px){footer:where(.astro-VELUO6WA){justify-content:flex-start;gap:0;height:calc(var(--height-footer) + 40vw)}}footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA){position:relative;height:calc(var(--height-footer) * .5);z-index:10}footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA) .linked-in:where(.astro-VELUO6WA){height:100%;margin-left:2em;margin-right:2em}
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap";
+
+:root {
+    --color-light: #f2f7f7;
+    --color-milk: #F5EEE8;
+    --color-milk-dark: #E1EDF3;
+    --color-blue: #aac1c8;
+    --color-blue-light: #7DA9C1;
+    --color-blue-dark: #3A6982;
+    --color-emph: #FFA742;
+    --color-red-dark: #2D111D;
+    --color-dark: #232323;
+    --gradient-space: linear-gradient(219.78deg, #271B20 47.4%, #141515 84.73%);
+    --text-dark: #232323;
+    --text-light: #ffffff;
+    --font-1: "Inter", sans-serif;
+    --height-header: 150px;
+    --height-footer: 150px
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column
+}
+
+body {
+    font-family: var(--font-1);
+    margin: 0
+}
+
+.text-shadow {
+    text-shadow: .05em 3px 2px rgba(125, 169, 193, .6039215686)
+}
+
+.-mobile {
+    display: none
+}
+
+@media (max-width: 770px) {
+    .-not-mobile {
+        display: none
+    }
+
+    .-mobile {
+        display: inherit
+    }
+}
+
+.outer-space-svg path {
+    background: var(--gradient-space)
+}
+
+:root {
+    --height-footer: 175px
+}
+
+header:where(.astro-VELUO6WA) {
+    --color: #2e2e2e;
+    position: relative;
+    width: 100%;
+    color: var(--color);
+    box-sizing: border-box;
+    background-color: var(--color-milk);
+    padding: 2em 0;
+    filter: drop-shadow(2px 5px 1px rgba(0, 0, 0, .062745098));
+    z-index: 10
+}
+
+@media (max-width: 770px) {
+    header:where(.astro-VELUO6WA) {
+        padding-left: 0
+    }
+}
+
+header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    z-index: 10
+}
+
+header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) .company-logo:where(.astro-VELUO6WA) {
+    display: inline;
+    height: 1.7em;
+    margin-right: 1em
+}
+
+header:where(.astro-VELUO6WA) .header-drops:where(.astro-VELUO6WA) {
+    position: absolute;
+    width: 400px;
+    top: calc(100% - 1px)
+}
+
+header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    right: 0
+}
+
+header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
+    fill: var(--color-milk)
+}
+
+.middle-content:where(.astro-VELUO6WA) {
+    --color: #f8f3ee;
+    position: relative;
+    background-color: var(--color-blue);
+    width: 100%;
+    z-index: 5;
+    filter: drop-shadow(0px 5px 20px black) drop-shadow(-5px 10px 50px black);
+    flex-grow: 1
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+@media (max-width: 770px) {
+    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup {
+        font-size: 1.2em
+    }
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) {
+    color: var(--color);
+    position: relative;
+    z-index: 10;
+    max-width: 700px;
+    padding-top: 2em;
+    padding-bottom: 2em
+}
+
+@media (max-width: 770px) {
+    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) {
+        padding-top: 7em;
+        padding-bottom: 0
+    }
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) p:where(.astro-VELUO6WA) {
+    font-weight: 600
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA) {
+    position: relative
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up {
+    display: inline-block;
+    background-color: var(--color-milk);
+    color: var(--color-blue-light);
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 1em 2em;
+    text-decoration: none;
+    filter: drop-shadow(0px 20px 0px var(--color-blue-light));
+    margin-bottom: 2em
+}
+
+@media (max-width: 770px) {
+    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up {
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+        filter: drop-shadow(2px 5px 1px rgba(0, 0, 0, .062745098))
+    }
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA) .sign-up-drops:where(.astro-VELUO6WA) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% - 1px)
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) {
+    position: relative;
+    width: 180px;
+    display: inline-block
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) {
+    position: relative;
+    z-index: 2
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #drops,
+#wave {
+    fill: var(--color-milk)
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #background {
+    fill: none
+}
+
+.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo-background:where(.astro-VELUO6WA) {
+    position: absolute;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    z-index: 1;
+    inset: 3%;
+    background-image: url(logo-background.png);
+    background-size: contain;
+    animation-name: space-rotation;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes space-rotation {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA) {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    right: 0
+}
+
+.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA) path {
+    fill: var(--color-blue)
+}
+
+footer:where(.astro-VELUO6WA) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4em;
+    width: 100%;
+    padding-bottom: calc(var(--height-footer) * .25);
+    height: var(--height-footer);
+    background-image: url(assets/stars_pattern.png), var(--gradient-space);
+    background-size: 800px, 100%
+}
+
+@media (max-width: 770px) {
+    footer:where(.astro-VELUO6WA) {
+        justify-content: flex-start;
+        gap: 0;
+        height: calc(var(--height-footer) + 40vw)
+    }
+}
+
+footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA) {
+    position: relative;
+    height: calc(var(--height-footer) * .5);
+    z-index: 10
+}
+
+footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA) .linked-in:where(.astro-VELUO6WA) {
+    height: 100%;
+    margin-left: 2em;
+    margin-right: 2em
+}
