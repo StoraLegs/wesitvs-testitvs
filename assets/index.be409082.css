@@ -250,7 +250,7 @@ footer:where(.astro-RJKVWZSG) {
     width: 100%;
     padding-bottom: calc(var(--height-footer) * .25);
     height: var(--height-footer);
-    background-image: url(assets/stars_pattern.png), var(--gradient-space);
+    background-image: url(stars_pattern.png), var(--gradient-space);
     background-size: 800px, 100%
 }
 
