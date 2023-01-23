@@ -58,11 +58,35 @@ body {
     background: var(--gradient-space)
 }
 
+div:where(.astro-LFEN5P3W)#calendly-inline-widget {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden hidden
+}
+
+div:where(.astro-LFEN5P3W)#calendly-inline-widget * {
+    overflow: hidden
+}
+
+@media (max-width: 1100px) {
+    div:where(.astro-LFEN5P3W)#calendly-inline-widget {
+        height: 1200px
+    }
+}
+
+@media (max-width: 770px) {
+    div:where(.astro-LFEN5P3W)#calendly-inline-widget {
+        height: 1100px;
+        margin-top: 4em
+    }
+}
+
 :root {
     --height-footer: 175px
 }
 
-header:where(.astro-VELUO6WA) {
+header:where(.astro-V3NI2UB3) {
     --color: #2e2e2e;
     position: relative;
     width: 100%;
@@ -75,12 +99,12 @@ header:where(.astro-VELUO6WA) {
 }
 
 @media (max-width: 770px) {
-    header:where(.astro-VELUO6WA) {
+    header:where(.astro-V3NI2UB3) {
         padding-left: 0
     }
 }
 
-header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) {
+header:where(.astro-V3NI2UB3) h1:where(.astro-V3NI2UB3) {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -90,30 +114,30 @@ header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) {
     z-index: 10
 }
 
-header:where(.astro-VELUO6WA) h1:where(.astro-VELUO6WA) .company-logo:where(.astro-VELUO6WA) {
+header:where(.astro-V3NI2UB3) h1:where(.astro-V3NI2UB3) .company-logo:where(.astro-V3NI2UB3) {
     display: inline;
     height: 1.7em;
     margin-right: 1em
 }
 
-header:where(.astro-VELUO6WA) .header-drops:where(.astro-VELUO6WA) {
+header:where(.astro-V3NI2UB3) .header-drops:where(.astro-V3NI2UB3) {
     position: absolute;
     width: 400px;
     top: calc(100% - 1px)
 }
 
-header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) {
+header:where(.astro-V3NI2UB3) .header-melt:where(.astro-V3NI2UB3) {
     position: absolute;
     top: calc(100% - 1px);
     left: 0;
     right: 0
 }
 
-header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
+header:where(.astro-V3NI2UB3) .header-melt:where(.astro-V3NI2UB3) path {
     fill: var(--color-milk)
 }
 
-.middle-content:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) {
     --color: #f8f3ee;
     position: relative;
     background-color: var(--color-blue);
@@ -123,7 +147,7 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
     flex-grow: 1
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,12 +159,12 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
 }
 
 @media (max-width: 770px) {
-    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup {
+    .middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup {
         font-size: 1.2em
     }
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) {
     color: var(--color);
     position: relative;
     z-index: 10;
@@ -150,21 +174,21 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
 }
 
 @media (max-width: 770px) {
-    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) {
+    .middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) {
         padding-top: 7em;
         padding-bottom: 0
     }
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) p:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) p:where(.astro-V3NI2UB3) {
     font-weight: 600
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) a:where(.astro-V3NI2UB3) {
     position: relative
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) a:where(.astro-V3NI2UB3).sign-up {
     display: inline-block;
     background-color: var(--color-milk);
     color: var(--color-blue-light);
@@ -177,41 +201,42 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
 }
 
 @media (max-width: 770px) {
-    .middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA).sign-up {
+    .middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) a:where(.astro-V3NI2UB3).sign-up {
         border-bottom-left-radius: unset;
         border-bottom-right-radius: unset;
         filter: drop-shadow(2px 5px 1px rgba(0, 0, 0, .062745098))
     }
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) a:where(.astro-VELUO6WA) .sign-up-drops:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) a:where(.astro-V3NI2UB3) .sign-up-drops:where(.astro-V3NI2UB3) {
     position: absolute;
     left: 0;
     right: 0;
+    width: 100%;
     top: calc(100% - 1px)
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) #new-logo:where(.astro-V3NI2UB3) {
     position: relative;
     width: 180px;
     display: inline-block
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) #new-logo:where(.astro-V3NI2UB3) #logo:where(.astro-V3NI2UB3) {
     position: relative;
     z-index: 2
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #drops,
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) #new-logo:where(.astro-V3NI2UB3) #logo:where(.astro-V3NI2UB3) #milky-way-logo #drops,
 #wave {
     fill: var(--color-milk)
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo:where(.astro-VELUO6WA) #milky-way-logo #background {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) #new-logo:where(.astro-V3NI2UB3) #logo:where(.astro-V3NI2UB3) #milky-way-logo #background {
     fill: none
 }
 
-.middle-content:where(.astro-VELUO6WA) section:where(.astro-VELUO6WA)#landing-mockup .content:where(.astro-VELUO6WA) #new-logo:where(.astro-VELUO6WA) #logo-background:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) section:where(.astro-V3NI2UB3)#landing-mockup .content:where(.astro-V3NI2UB3) #new-logo:where(.astro-V3NI2UB3) #logo-background:where(.astro-V3NI2UB3) {
     position: absolute;
     border-radius: 100%;
     aspect-ratio: 1;
@@ -220,7 +245,7 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
     background-image: url(logo-background.png);
     background-size: contain;
     animation-name: space-rotation;
-    animation-duration: 60s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear
 }
@@ -235,44 +260,61 @@ header:where(.astro-VELUO6WA) .header-melt:where(.astro-VELUO6WA) path {
     }
 }
 
-.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA) {
+.middle-content:where(.astro-V3NI2UB3) .body-melt:where(.astro-V3NI2UB3) {
     position: absolute;
     top: calc(100% - 1px);
     left: 0;
     right: 0
 }
 
-.middle-content:where(.astro-VELUO6WA) .body-melt:where(.astro-VELUO6WA) path {
+.middle-content:where(.astro-V3NI2UB3) .body-melt:where(.astro-V3NI2UB3) path {
     fill: var(--color-blue)
 }
 
-footer:where(.astro-VELUO6WA) {
+footer:where(.astro-V3NI2UB3) {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 4em;
+    position: relative;
     width: 100%;
     padding-bottom: calc(var(--height-footer) * .25);
     height: var(--height-footer);
-    background-image: url(stars_pattern.png), var(--gradient-space);
-    background-size: 800px, 100%
+    background: var(--gradient-space);
+    overflow: hidden
+}
+
+footer:where(.astro-V3NI2UB3):after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(stars.png);
+    background-size: 80%;
+    background-repeat: repeat
+}
+
+footer:where(.astro-V3NI2UB3):before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 -5px 20px 5px #000
 }
 
 @media (max-width: 770px) {
-    footer:where(.astro-VELUO6WA) {
+    footer:where(.astro-V3NI2UB3) {
         justify-content: flex-start;
         gap: 0;
         height: calc(var(--height-footer) + 40vw)
     }
 }
 
-footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA) {
+footer:where(.astro-V3NI2UB3) .footer-logo:where(.astro-V3NI2UB3) {
     position: relative;
     height: calc(var(--height-footer) * .5);
     z-index: 10
 }
 
-footer:where(.astro-VELUO6WA) .footer-logo:where(.astro-VELUO6WA) .linked-in:where(.astro-VELUO6WA) {
+footer:where(.astro-V3NI2UB3) .footer-logo:where(.astro-V3NI2UB3) .linked-in:where(.astro-V3NI2UB3) {
     height: 100%;
     margin-left: 2em;
     margin-right: 2em
